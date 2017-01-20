@@ -42,10 +42,10 @@ void changed() {
 
 void loop(){ 
   if(counter >= 4) {
-    Keyboard.write(KEY_UP);
+    Keyboard.write(KEY_VOLUME_UP);
     counter -= 4;
   } else if(counter <= -4) {
-    Keyboard.write(KEY_DOWN);
+    Keyboard.write(KEY_VOLUME_DOWN);
 
     counter += 4;
   } 
